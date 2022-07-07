@@ -79,14 +79,14 @@ nav button {
     outline: none;
 }
 .sbox .sinput:hover {
-    border: 1px solid #fff;
+    /* border: 1px solid black; */
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
                 0 0 2px rgba(0, 0, 0, 0.05),
                 0 0 3px rgba(0, 0, 0, 0.05),
                 0 0 4px rgba(0, 0, 0, 0.05),
                 0 0 5px rgba(0, 0, 0, 0.05),
                 0 0 4px rgba(0, 0, 0, 0.05),
-                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05);
 }
 .sbox .searchicon {
     width: 20px;
@@ -105,15 +105,16 @@ nav button {
 .sbtn {
     border: none;
     padding: 9px 15px;
-    color: rgb(53, 52, 52);
-    font-size: 16px;
+    color: rgb(37, 36, 36);
+    font-size: 14px;
     border-radius: 4px;
     display: inline-block;
     margin-right: 10px;
-    margin-top: 28px;
+    margin-top: 14px;
     outline: none;
     cursor: pointer;
     transition: border-color 100ms;
+    background-color: rgb(249, 249, 249);
 }
 .sbtn:hover {
     border: 1px solid rgb(202, 199, 199);
@@ -185,18 +186,16 @@ footer a:hover {
     text-decoration: underline;
 }
 .links {
-display : flex;
-justify-content : space-around;
-flex-direction : columns;
-align-items: inherit;
+justify-content:space-between;
+display:flex;
+flex-direction:inherit;
 }
 .link1 {
-    margin-left: 0;
-    padding-left: 18.7px;
+    padding-left:20px;
+    margin-top: 10px;
 }
 .link2 {
-    margin-right: 0;
-    padding-right: 18.7px;
+    padding-right: 20px;
 }
 /* Dropup Button */
 .dropbutton {
